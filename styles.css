@@ -1,0 +1,140 @@
+/* GLOBAL STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hide {
+    display: none;
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+header {
+    margin: 5px;
+    padding: 5px;
+}
+
+#timer-display {
+    margin: 5px;
+}
+
+.time-remaining {
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+}
+
+.counter-section {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    font-size: 25px;
+}
+
+
+
+#back-time-bar {
+    background-color: yellowgreen;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+}
+
+#time-bar {
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: green;
+    width: 200px;
+    height: 20px;
+    bottom: 20px;
+}
+
+.correct-track {
+    margin: 5px;
+}
+
+.start-button {
+    margin: 5px;
+    padding: 5px;
+}
+
+.question-wrap {
+    border: solid 5px black;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.question-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.button-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.choice-button {
+    margin: 5px;
+    padding: 5px;
+    border: solid 2px black;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.choice-button:hover {
+    background-color: yellow;
+}
+
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.score-text {
+    text-align: center;
+    margin: 5px;
+}
+
+.enter-your-initials-input {
+    text-align: center;
+    margin: 5px;
+    width: 100px;    
+}
+
+.save-button {
+    margin: 5px;
+    width: 100px;
+}
+    
+
+#play-again {
+    text-align: center;
+}
+
+
+
+

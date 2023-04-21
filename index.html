@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <header id="header">
+            <h1 id="title">Code Quiz!</h1>
+        </header>
+        
+        <button id="start-button" class="start-button">Start</button>
+        
+        
+        <section id="timer-display" class="hide">
+            
+            <section class="time-remaining">
+                <h1>Time Remaining:</h1>
+            </section>
+            
+            <section class="counter-section">
+                <h1 id="counter">60</h1>
+            </section>
+            
+            <section id="back-time-bar" class="timer"></section>
+            <section id="time-bar" class="timer"></section>
+            
+        </section>
+
+        <h2 id="correct-track" class="correct-track hide"></h2>
+
+        <section id="question-wrap" class="question-wrap hide">
+            <section id="question-content" class="question-content">
+                <h1 id="question">Question1</h1>
+            </section>
+            
+            
+            <section id="button-wrap" class="button-wrap">
+                <button id="A" class="choice-button" onclick="checkUserChoice('A')">answer1</button>
+                <button id="B" class="choice-button" onclick="checkUserChoice('B')">answer2</button>
+                <button id="C" class="choice-button" onclick="checkUserChoice('C')">answer3</button>
+                <button id="D" class="choice-button" onclick="checkUserChoice('D')">answer4</button>
+            </section>
+        </section>
+        
+        <section id="results-screen" class="hide">
+            
+            <section id="score-section">
+                <h2 id="score-track" class="score-text"></h2>
+                <h2 id="total-score-display" class="score-text"></h2>
+            </section> 
+
+            <section id=save-section class="section">
+                <input type="text" placeholder="Initials Here" maxlength="2" id="enter-your-initials" class="enter-your-initials-input">
+            </section>
+            
+            <section id="save-button-section" class="section">
+                <button id="save-button" class="save-button">Save Score</button>
+            </section>
+
+        </section>
+
+        <section id="high-score-screen" class="hide">
+
+            <ul>
+                <h1 id="high-score">High Scores</h1>
+            </ul>
+            <h1 id="play-again">Play Again?</h1>
+            <button id="restart-button">Restart</button>
+            
+        </section>
+        
+        
+        
+        <script src="questions.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
+        
+        
+
+
+        
+        
+
+
+
+
